@@ -1,0 +1,35 @@
+{
+  "type": "module",
+  "name": "uconn-coursefinder-backend",
+  "version": "1.0.0",
+  "description": "backend for minemidnight/uconn-coursefinder-frontend",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "import": "node src/scripts/insertSemester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minemidnight/uconn-coursefinder-backend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minemidnight/uconn-coursefinder-backend/issues"
+  },
+  "homepage": "https://github.com/minemidnight/uconn-coursefinder-backend#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.0",
+    "xlsx": "^0.18.5"
+  }
+}
